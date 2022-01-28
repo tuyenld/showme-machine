@@ -6,13 +6,13 @@
 **Equation of motion - Electrical**
 
 Using Kirchhoff’s Voltage Law
-<p align="center"><img src="svgs/2fee4c39707ae8ecc65c2a49813cb737.svg?invert_in_darkmode" align=middle width=156.991725pt height=13.059335849999998pt/></p>
+<p align="center"><img src="svgs/baf9c5efc933c1404816b0d3ceec5174.svg?invert_in_darkmode" align=middle width=156.991725pt height=13.059335849999998pt/></p>
 or
 <p align="center"><img src="svgs/268e82577294c2e4a5160aef11ef9e7a.svg?invert_in_darkmode" align=middle width=185.89421234999998pt height=33.81208709999999pt/></p>
 
 **Equation of motion - Mechanical**
 
-Torque balance
+Torque balance <img src="svgs/1318643822c4bf907d5e39ac6134a63f.svg?invert_in_darkmode" align=middle width=32.11120274999999pt height=22.465723500000017pt/> is torque developed by rotor.
 <p align="center"><img src="svgs/c6a9a290ce4a1cd9d1817b6991e8d12a.svg?invert_in_darkmode" align=middle width=165.55373339999997pt height=33.81208709999999pt/></p>
 
 where

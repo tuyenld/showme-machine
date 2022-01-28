@@ -59,6 +59,7 @@ Finally, we have
 ### Definition of torque 
 When a force <img src="svgs/63e6b37db128efdc41eba7d12ad0303e.svg?invert_in_darkmode" align=middle width=16.43875364999999pt height=41.64378900000001pt/> is applied to a point P whose position is <img src="svgs/56fabb4c23198f3edf5591fd7320b4f6.svg?invert_in_darkmode" align=middle width=16.43875364999999pt height=33.333309899999996pt/> relative to <img src="svgs/9afe6a256a9817c76b579e6f5db9a578.svg?invert_in_darkmode" align=middle width=12.99542474999999pt height=22.465723500000017pt/>, the torque <img src="svgs/a9b15e5f848995f025b6bf77bce0fdc8.svg?invert_in_darkmode" align=middle width=16.43875364999999pt height=33.333309899999996pt/> around <img src="svgs/9afe6a256a9817c76b579e6f5db9a578.svg?invert_in_darkmode" align=middle width=12.99542474999999pt height=22.465723500000017pt/> is
 <p align="center"><img src="svgs/2ca52915e3cba82c1241ccc03f4a0def.svg?invert_in_darkmode" align=middle width=91.3250415pt height=22.191769049999998pt/></p>
+
 ![torque definition](images/torque-cal.jpg)
 
 From the definiton of the **cross product**, the direction of torque is determined by **right hand** rule, and torque has magnitude
@@ -89,10 +90,17 @@ Substitude the moment of inertia <img src="svgs/8e5b358e964deefdf112f18e67ed9e49
 ![principle of motion](images/p6-49.png)
 
 **Faraday law** (generator action): moving coil in a magnetic field ==> electromotive force (back EMF - <img src="svgs/ef3029d68758f0ee673b6795dfdd626a.svg?invert_in_darkmode" align=middle width=10.146128849999991pt height=22.465723500000017pt/>)
-<p align="center"><img src="svgs/c3ce3d9a375c1714721e9f37f18bda3a.svg?invert_in_darkmode" align=middle width=300.80133105pt height=16.438356pt/></p>
+<p align="center"><img src="svgs/2d6486b24d6cde91279b98e2585cac20.svg?invert_in_darkmode" align=middle width=198.98411775pt height=16.438356pt/></p>
+or
+<p align="center"><img src="svgs/eff535d966d649386ee802c2ebfbc0b1.svg?invert_in_darkmode" align=middle width=69.53782604999999pt height=13.698590399999999pt/></p>
 
 **Lorentz law** (motor action): magnetic field applies force to a current.
-<p align="center"><img src="svgs/c6a31528186d3cc3b547978de80e5703.svg?invert_in_darkmode" align=middle width=476.8412583pt height=16.438356pt/></p>
+
+<p align="center"><img src="svgs/8bbc3351e49be35d43d457830f071c4a.svg?invert_in_darkmode" align=middle width=219.95162804999995pt height=16.438356pt/></p>
+<p align="center"><img src="svgs/60023a76727dcbfb08385cbd04024f62.svg?invert_in_darkmode" align=middle width=158.69209785pt height=16.438356pt/></p>
+or
+<p align="center"><img src="svgs/20b7088dc9b21d39048398126efe1d5c.svg?invert_in_darkmode" align=middle width=65.91814515pt height=13.698590399999999pt/></p>
+
 where
 - <img src="svgs/a9a3a4a202d80326bda413b5562d5cd1.svg?invert_in_darkmode" align=middle width=13.242037049999992pt height=22.465723500000017pt/> velocity of the coil
 - <img src="svgs/f9c4988898e7f532b9f826a75014ed3c.svg?invert_in_darkmode" align=middle width=14.99998994999999pt height=22.465723500000017pt/> number of coil
