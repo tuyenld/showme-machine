@@ -119,5 +119,5 @@ where
 - Model of induction machine in Rotor flux oriented reference fram (for Field-Oriented Control)
 
 # References
-1. Moebs, W., Ling, S. J. & Sanny, J. 2016. University Physics: Volume 1 [Online]. Available: https://openstax.org/books/university-physics-volume-1/pages/10-6-torque [Accessed January 28, 2022].
-2. Hover, F., Gossard, D. & Barbastathis, G. 2007. MIT 2.004 Systems, Modeling, and Control II [Online]. Available: https://ocw.mit.edu/courses/mechanical-engineering/2-004-systems-modeling-and-control-ii-fall-2007/lecture-notes/ [Accessed January 28, 2022].
+1. Moebs, W., Ling, S. J. & Sanny, J. Sep 19, 2016. University Physics Volume 1 [Online]. Houston, Texas: OpenStax. Available: https://openstax.org/books/university-physics-volume-1/pages/10-6-torque [Accessed January 28, 2022].
+2. Franz Hover, David Gossard, and George Barbastathis. *2.004 Systems, Modeling, and Control II.* Fall 2007. Massachusetts Institute of Technology: MIT OpenCourseWare, [https://ocw.mit.edu](https://ocw.mit.edu/courses/mechanical-engineering/2-004-systems-modeling-and-control-ii-fall-2007). License: [Creative Commons BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/).
