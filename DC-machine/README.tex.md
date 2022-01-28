@@ -7,7 +7,7 @@
 
 Using Kirchhoff’s Voltage Law
 $$
-v_s - v_L - v_R - v_e = 0  \\
+v_s - v_L - v_R - v_e = 0
 $$
 or
 $$
@@ -16,7 +16,7 @@ $$
 
 **Equation of motion - Mechanical**
 
-Torque balance
+Torque balance $K_m i$ is torque developed by rotor.
 $$
 J \frac{d \omega}{dt} = K_m i - T_L - b \omega
 $$

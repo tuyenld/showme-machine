@@ -69,6 +69,7 @@ When a force $\overrightarrow{F}$ is applied to a point P whose position is $\ov
 $$
 \overrightarrow{\tau} = \overrightarrow{r} \times \overrightarrow{F}
 $$
+
 ![torque definition](images/torque-cal.jpg)
 
 From the definiton of the **cross product**, the direction of torque is determined by **right hand** rule, and torque has magnitude
@@ -108,16 +109,26 @@ $$
 
 **Faraday law** (generator action): moving coil in a magnetic field ==> electromotive force (back EMF - $\mathcal {E}$)
 $$
-v_{e} = 2 VBNL = 2 (\omega r)BNL \quad or \\
+v_{e} = 2 VBNL = 2 (\omega r)BNL
+$$
+or
+$$
 v_e = K_v \omega
 $$
 
 **Lorentz law** (motor action): magnetic field applies force to a current.
+
 $$
-F = (i \times B) L =iBL \quad (i\perp B) \\
-T = 2Fr = 2 (iBNL)r \quad or \\
+F = (i \times B) L =iBL \quad (i\perp B)
+$$
+$$
+T = 2Fr = 2 (iBNL)r
+$$
+or
+$$
 T = K_m i
 $$
+
 where
 - $V$ velocity of the coil
 - $N$ number of coil
