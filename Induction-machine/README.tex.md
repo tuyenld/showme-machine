@@ -1,6 +1,5 @@
 Table of contents
 - [Induction machine](#induction-machine)
-- [References](#references)
 
 :warning: Notation: a capital with `\underline` like $\underline{A}$ is a matrix, and a capital with `\overline` is a vector like $\overline{B}$.
 
@@ -80,5 +79,5 @@ M=\frac{4}{\pi} \frac{\mu_{0} R l N_{S} N_{R} k_{S} k_{R}}{p^{2} g}
 M=\wp_{a g} N_{S} N_{R} k_{S} k_{R}
 $$
 
-# References
+
 [^ref1]: James Kirtley Jr.. *6.685 Electric Machines.* Fall 2013. Massachusetts Institute of Technology: MIT OpenCourseWare, [https://ocw.mit.edu](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-685-electric-machines-fall-2013). License: [Creative Commons BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/).
