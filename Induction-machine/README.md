@@ -1,6 +1,5 @@
 Table of contents
 - [Induction machine](#induction-machine)
-- [References](#references)
 
 :warning: Notation: a capital with `\underline` like <img src="svgs/41a016b73203b2aba6376f423994eb5a.svg?invert_in_darkmode" align=middle width=12.32879834999999pt height=22.465723500000017pt/> is a matrix, and a capital with `\overline` is a vector like <img src="svgs/bb9674d5100390c5eca7be169db2bb73.svg?invert_in_darkmode" align=middle width=13.29340979999999pt height=27.725679300000007pt/>.
 
@@ -35,5 +34,5 @@ where mutual inductance, as between a field winding <img src="svgs/8a0d0623ce3fb
 
 <p align="center"><img src="svgs/548e3917a1a55f6cbac6288c952fe049.svg?invert_in_darkmode" align=middle width=467.1226923pt height=37.0084374pt/></p>
 
-# References
+
 [^ref1]: James Kirtley Jr.. *6.685 Electric Machines.* Fall 2013. Massachusetts Institute of Technology: MIT OpenCourseWare, [https://ocw.mit.edu](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-685-electric-machines-fall-2013). License: [Creative Commons BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/).
