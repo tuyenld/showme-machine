@@ -5,9 +5,9 @@ Table of contents
     - [Definition of torque](#definition-of-torque)
     - [Newton's second law for rotation](#newtons-second-law-for-rotation)
   - [Basic rules](#basic-rules)
+  - [Summary](#summary)
 - [DC machine directory](#dc-machine-directory)
 - [Induction machine directory](#induction-machine-directory)
-- [References](#references)
 
 
 Click :arrow_forward: icon to expand the content inside.
@@ -44,9 +44,9 @@ Finally, we have
 
 ## Torque
 
-**Torque** is the turning effectiveness of a force, and it is illustrated here for door rotation on its hinges.
+**Torque** is the turning effectiveness of a force, and it is illustrated here for door rotation on its hinges [^ref1].
 
-![door torque](/images/torque.jpg)
+![door torque](images/torque.jpg)
 
 (a) A couterclockwise torque is produced by a force <img src="svgs/70ce240d220184781a81d726d723d3ba.svg?invert_in_darkmode" align=middle width=16.43875364999999pt height=41.73519240000002pt/> acting at a distance <img src="svgs/89f2e0d2d24bcf44db73aab8fc03252c.svg?invert_in_darkmode" align=middle width=7.87295519999999pt height=14.15524440000002pt/> from the hingles.
 
@@ -57,13 +57,13 @@ Finally, we have
 (d) A smaller counterclockwise torque is produced by same **magnitude** force as (a) at the same distance <img src="svgs/89f2e0d2d24bcf44db73aab8fc03252c.svg?invert_in_darkmode" align=middle width=7.87295519999999pt height=14.15524440000002pt/> but at an angle <img src="svgs/09c355318e84ea25fabf454b1de5475b.svg?invert_in_darkmode" align=middle width=46.529575949999995pt height=22.831056599999986pt/>
 
 ### Definition of torque 
-When a force <img src="svgs/63e6b37db128efdc41eba7d12ad0303e.svg?invert_in_darkmode" align=middle width=16.43875364999999pt height=41.64378900000001pt/> is applied to a point P whose position is <img src="svgs/56fabb4c23198f3edf5591fd7320b4f6.svg?invert_in_darkmode" align=middle width=16.43875364999999pt height=33.333309899999996pt/> relative to <img src="svgs/9afe6a256a9817c76b579e6f5db9a578.svg?invert_in_darkmode" align=middle width=12.99542474999999pt height=22.465723500000017pt/>, the torque <img src="svgs/a9b15e5f848995f025b6bf77bce0fdc8.svg?invert_in_darkmode" align=middle width=16.43875364999999pt height=33.333309899999996pt/> around <img src="svgs/9afe6a256a9817c76b579e6f5db9a578.svg?invert_in_darkmode" align=middle width=12.99542474999999pt height=22.465723500000017pt/> is
-<p align="center"><img src="svgs/2ca52915e3cba82c1241ccc03f4a0def.svg?invert_in_darkmode" align=middle width=91.3250415pt height=22.191769049999998pt/></p>
+When a force <img src="svgs/63e6b37db128efdc41eba7d12ad0303e.svg?invert_in_darkmode" align=middle width=16.43875364999999pt height=41.64378900000001pt/> is applied to a point P whose position is <img src="svgs/56fabb4c23198f3edf5591fd7320b4f6.svg?invert_in_darkmode" align=middle width=16.43875364999999pt height=33.333309899999996pt/> relative to <img src="svgs/9afe6a256a9817c76b579e6f5db9a578.svg?invert_in_darkmode" align=middle width=12.99542474999999pt height=22.465723500000017pt/>, the torque <img src="svgs/f0db8498950ba165e549777c262c09c1.svg?invert_in_darkmode" align=middle width=16.43875364999999pt height=41.64378900000001pt/> around <img src="svgs/9afe6a256a9817c76b579e6f5db9a578.svg?invert_in_darkmode" align=middle width=12.99542474999999pt height=22.465723500000017pt/> is
+<p align="center"><img src="svgs/58d2948d5be2d3683a6ba3b1424cc6d2.svg?invert_in_darkmode" align=middle width=91.3250415pt height=22.191769049999998pt/></p>
 
 ![torque definition](images/torque-cal.jpg)
 
 From the definiton of the **cross product**, the direction of torque is determined by **right hand** rule, and torque has magnitude
-<p align="center"><img src="svgs/b0253da86b54065bcb67e7e1fbbc671d.svg?invert_in_darkmode" align=middle width=219.10488435pt height=20.00911605pt/></p>
+<p align="center"><img src="svgs/cdea24447b114871c13672642f281d54.svg?invert_in_darkmode" align=middle width=221.94735915pt height=20.00911605pt/></p>
 
 ### Newton's second law for rotation
 
@@ -76,8 +76,8 @@ Recall that the magnitude of the **tangential** acceleration is proportional to 
 Multiple both side of above equation with <img src="svgs/89f2e0d2d24bcf44db73aab8fc03252c.svg?invert_in_darkmode" align=middle width=7.87295519999999pt height=14.15524440000002pt/>, we have
 <p align="center"><img src="svgs/2a59f4e617a29cabdf6d7ab86cbc4e12.svg?invert_in_darkmode" align=middle width=82.9015275pt height=14.202794099999998pt/></p>
 
-Substitude the moment of inertia <img src="svgs/8e5b358e964deefdf112f18e67ed9e49.svg?invert_in_darkmode" align=middle width=59.29219889999999pt height=26.76175259999998pt/> and torque <img src="svgs/71dc9384f165ba4e1aa5202de474a95b.svg?invert_in_darkmode" align=middle width=51.69134519999999pt height=22.465723500000017pt/>, we have
-<p align="center"><img src="svgs/d5e1a1c375af3f503652064a3ee2f2ca.svg?invert_in_darkmode" align=middle width=101.84101125pt height=33.81208709999999pt/></p>
+Substitude the moment of inertia <img src="svgs/8e5b358e964deefdf112f18e67ed9e49.svg?invert_in_darkmode" align=middle width=59.29219889999999pt height=26.76175259999998pt/> and torque <img src="svgs/5d850835ddcfc6b96d9bfbbeb597b2b4.svg?invert_in_darkmode" align=middle width=54.533821649999986pt height=22.465723500000017pt/>, we have
+<p align="center"><img src="svgs/dad19270890da467edeb8bbd852c3f97.svg?invert_in_darkmode" align=middle width=104.6834877pt height=33.81208709999999pt/></p>
 
 </details>
 
@@ -110,6 +110,37 @@ where
 
 </details>
 
+<details>
+<summary> What is shear stress </summary>
+
+There are two ways to come up with the machine torque equation, one is through `Lorentz force` and another is `shear stress`. In [^ref2] course note, the author used shear stress to describe the torque. When deforming forces act tangentially to the object's surface, we call them 'shear' forces and the stress they cause is called **shear stress** [^ref1].  
+Shear stress is due to forces that act parallel to the surface. We use the symbol <img src="svgs/27295e315f1bda4258a9796d7a06c92a.svg?invert_in_darkmode" align=middle width=17.30599199999999pt height=22.465723500000017pt/> for such forces. The magnitude per surface area A where shearing force is applied is the measure of shear stress
+
+<p align="center"><img src="svgs/823bb7f1c5cad9ed30c978953c00a8a4.svg?invert_in_darkmode" align=middle width=179.3753478pt height=34.76437305pt/></p>
+
+so,
+
+<p align="center"><img src="svgs/b868f27f89684735040d1f8fec952989.svg?invert_in_darkmode" align=middle width=149.23708305pt height=18.17354385pt/></p>
+
+The air-gap also has a physical length `l`. Total developed torque <img src="svgs/2f118ee06d05f3c2d98361d9c30e38ce.svg?invert_in_darkmode" align=middle width=11.889314249999991pt height=22.465723500000017pt/> is force over the surface area times radius `r`
+<p align="center"><img src="svgs/74443b1c1ece8f194c947dea41ec2d62.svg?invert_in_darkmode" align=middle width=142.2127443pt height=20.04757095pt/></p>
+
+</details>
+
+## Summary
+
+| Name                               | Rotational                   | Linear          | Relationship         |
+| ---------------------------------- | ---------------------------- | --------------- | -------------------- |
+| Position                           | <img src="svgs/27e556cf3caa0673ac49a8f0de3c73ca.svg?invert_in_darkmode" align=middle width=8.17352744999999pt height=22.831056599999986pt/>                     | x               | <img src="svgs/0e61706413af84414afa8c37b7e83686.svg?invert_in_darkmode" align=middle width=55.57830959999999pt height=24.65753399999998pt/>       |
+| Accelation                         | <img src="svgs/c745b9b57c145ec5577b82542b2df546.svg?invert_in_darkmode" align=middle width=10.57650494999999pt height=14.15524440000002pt/>                     | <img src="svgs/9789555e5d8fa5de21171cc40c86d2cd.svg?invert_in_darkmode" align=middle width=13.65494624999999pt height=14.15524440000002pt/>           | <img src="svgs/62ca578849f037a07b2c63ea22e53c14.svg?invert_in_darkmode" align=middle width=63.063113849999986pt height=24.65753399999998pt/> |
+| Velocity                           | <img src="svgs/ae4fb5973f393577570881fc24fc2054.svg?invert_in_darkmode" align=middle width=10.82192594999999pt height=14.15524440000002pt/>                     | <img src="svgs/7c0bd77fe526a89b6011bf8ab3e21311.svg?invert_in_darkmode" align=middle width=14.55484304999999pt height=22.465723500000017pt/>           | <img src="svgs/c1c2774245445cd10b11cc1446ecdae7.svg?invert_in_darkmode" align=middle width=64.20844154999999pt height=24.65753399999998pt/>   |
+| Moment of inertia / mass           | <img src="svgs/9637cc0ba40de4e2dbfccd006532bebd.svg?invert_in_darkmode" align=middle width=90.32910314999998pt height=26.76175259999998pt/> | m               |                      |
+| Kinetic energy                     | <img src="svgs/6dd15e240185cbf5a22a922b116bca97.svg?invert_in_darkmode" align=middle width=101.21002484999998pt height=26.76175259999998pt/>           | <img src="svgs/9a3156eb1a8ea39329d9dc6abfdf31cd.svg?invert_in_darkmode" align=middle width=109.54728344999998pt height=26.76175259999998pt/>   |                      |
+| Newton's second law (torque/Force) | <img src="svgs/fe0ee1a5e10862583f9ddb165cc2e418.svg?invert_in_darkmode" align=middle width=52.89941084999998pt height=22.465723500000017pt/>               | <img src="svgs/e9147991e86b09a7a29369e9a48fcb0d.svg?invert_in_darkmode" align=middle width=57.893807399999986pt height=22.465723500000017pt/>        |                      |
+| Power                              | <img src="svgs/b22e8d754f299acc9ae1cdabf167259b.svg?invert_in_darkmode" align=middle width=57.46563899999999pt height=22.465723500000017pt/>               | <img src="svgs/f2aa6e053ac7b0bc2d6b8d0536583e3d.svg?invert_in_darkmode" align=middle width=164.8532061pt height=24.65753399999998pt/> |                      |
+
+
+
 # [DC machine directory](DC-machine/)
 - Model of DC machine
 - Speed control of DC machine
@@ -118,6 +149,7 @@ where
 - Model of induction machine in Stator reference frame
 - Model of induction machine in Rotor flux oriented reference fram (for Field-Oriented Control)
 
-# References
-1. Moebs, W., Ling, S. J. & Sanny, J. Sep 19, 2016. University Physics Volume 1 [Online]. Houston, Texas: OpenStax. Available: https://openstax.org/books/university-physics-volume-1/pages/10-6-torque [Accessed January 28, 2022].
-2. Franz Hover, David Gossard, and George Barbastathis. *2.004 Systems, Modeling, and Control II.* Fall 2007. Massachusetts Institute of Technology: MIT OpenCourseWare, [https://ocw.mit.edu](https://ocw.mit.edu/courses/mechanical-engineering/2-004-systems-modeling-and-control-ii-fall-2007). License: [Creative Commons BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+**References**
+
+[^ref1]: Moebs, W., Ling, S. J. & Sanny, J. Sep 19, 2016. University Physics Volume 1 [Online]. Houston, Texas: OpenStax. Available: https://assets.openstax.org/oscms-prodcms/media/documents/UniversityPhysicsVol1-WEB.pdf [Accessed January 28, 2022].
+[^ref2]: Franz Hover, David Gossard, and George Barbastathis. *2.004 Systems, Modeling, and Control II.* Fall 2007. Massachusetts Institute of Technology: MIT OpenCourseWare, [https://ocw.mit.edu](https://ocw.mit.edu/courses/mechanical-engineering/2-004-systems-modeling-and-control-ii-fall-2007). License: [Creative Commons BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/).

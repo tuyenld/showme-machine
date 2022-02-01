@@ -32,7 +32,21 @@ where mutual inductance, as between a field winding <img src="svgs/8a0d0623ce3fb
 
 <p align="center"><img src="svgs/a329d6d0fa43a60833362b21a3f9ba5c.svg?invert_in_darkmode" align=middle width=300.9112194pt height=44.69878215pt/></p>
 
-<p align="center"><img src="svgs/548e3917a1a55f6cbac6288c952fe049.svg?invert_in_darkmode" align=middle width=467.1226923pt height=37.0084374pt/></p>
+<p align="center"><img src="svgs/032ec24188029dc0c5c1e88e0e68d2b1.svg?invert_in_darkmode" align=middle width=291.3590592pt height=37.0084374pt/></p>
 
+<p align="center"><img src="svgs/1133063cace55b5fb9de57cfd5ce10eb.svg?invert_in_darkmode" align=middle width=148.2204735pt height=16.1187015pt/></p>
+
+where
+- `R` is rotor radius
+- `l` is active length
+- `g` is the effective air- gap
+- `p` is the number of pole- pairs
+- `N` represents number of turns
+- `k` represents the winding factor
+- `S` as a subscript refers to the stator
+- `R` as a subscript refers to the rotor
+- `Ll` is "leakage" inductance
+
+**References**
 
 [^ref1]: James Kirtley Jr.. *6.685 Electric Machines.* Fall 2013. Massachusetts Institute of Technology: MIT OpenCourseWare, [https://ocw.mit.edu](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-685-electric-machines-fall-2013). License: [Creative Commons BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/).
