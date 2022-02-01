@@ -75,9 +75,23 @@ $$
 M=\frac{4}{\pi} \frac{\mu_{0} R l N_{S} N_{R} k_{S} k_{R}}{p^{2} g}
 \quad
 \wp_{a g}=\frac{4}{\pi} \frac{\mu_{0} R l}{p^{2} g}
-\rightarrow
+$$
+
+$$
 M=\wp_{a g} N_{S} N_{R} k_{S} k_{R}
 $$
 
+where
+- `R` is rotor radius
+- `l` is active length
+- `g` is the effective air- gap
+- `p` is the number of pole- pairs
+- `N` represents number of turns
+- `k` represents the winding factor
+- `S` as a subscript refers to the stator
+- `R` as a subscript refers to the rotor
+- `Ll` is "leakage" inductance
+
+**References**
 
 [^ref1]: James Kirtley Jr.. *6.685 Electric Machines.* Fall 2013. Massachusetts Institute of Technology: MIT OpenCourseWare, [https://ocw.mit.edu](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-685-electric-machines-fall-2013). License: [Creative Commons BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/).

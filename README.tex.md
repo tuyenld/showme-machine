@@ -5,9 +5,9 @@ Table of contents
     - [Definition of torque](#definition-of-torque)
     - [Newton's second law for rotation](#newtons-second-law-for-rotation)
   - [Basic rules](#basic-rules)
+  - [Summary](#summary)
 - [DC machine directory](#dc-machine-directory)
 - [Induction machine directory](#induction-machine-directory)
-- [References](#references)
 
 
 Click :arrow_forward: icon to expand the content inside.
@@ -52,9 +52,9 @@ $$
 
 ## Torque
 
-**Torque** is the turning effectiveness of a force, and it is illustrated here for door rotation on its hinges.
+**Torque** is the turning effectiveness of a force, and it is illustrated here for door rotation on its hinges [^ref1].
 
-![door torque](/images/torque.jpg)
+![door torque](images/torque.jpg)
 
 (a) A couterclockwise torque is produced by a force $\overrightarrow{\mathbf{F}}$ acting at a distance $r$ from the hingles.
 
@@ -65,16 +65,16 @@ $$
 (d) A smaller counterclockwise torque is produced by same **magnitude** force as (a) at the same distance $r$ but at an angle $\theta < 90$
 
 ### Definition of torque 
-When a force $\overrightarrow{F}$ is applied to a point P whose position is $\overrightarrow{r}$ relative to $O$, the torque $\overrightarrow{\tau}$ around $O$ is
+When a force $\overrightarrow{F}$ is applied to a point P whose position is $\overrightarrow{r}$ relative to $O$, the torque $\overrightarrow{T}$ around $O$ is
 $$
-\overrightarrow{\tau} = \overrightarrow{r} \times \overrightarrow{F}
+\overrightarrow{T} = \overrightarrow{r} \times \overrightarrow{F}
 $$
 
 ![torque definition](images/torque-cal.jpg)
 
 From the definiton of the **cross product**, the direction of torque is determined by **right hand** rule, and torque has magnitude
 $$
-|\vec{\tau}| = | \vec{r} \times \vec{F} | = r F sin \theta \quad[Nm]
+|\vec{T}| = | \vec{r} \times \vec{F} | = r F sin \theta \quad[Nm]
 $$
 
 ### Newton's second law for rotation
@@ -92,9 +92,9 @@ $$
 r F = m r^2 \alpha
 $$
 
-Substitude the moment of inertia $I = m r^2$ and torque $\tau = rF$, we have
+Substitude the moment of inertia $I = m r^2$ and torque $T = rF$, we have
 $$
-\tau = I \alpha = I \frac{d \omega}{dt}
+T = I \alpha = I \frac{d \omega}{dt}
 $$
 
 </details>
@@ -138,6 +138,43 @@ where
 
 </details>
 
+<details>
+<summary> What is shear stress </summary>
+
+There are two ways to come up with the machine torque equation, one is through `Lorentz force` and another is `shear stress`. In [^ref2] course note, the author used shear stress to describe the torque. When deforming forces act tangentially to the object's surface, we call them 'shear' forces and the stress they cause is called **shear stress** [^ref1].  
+Shear stress is due to forces that act parallel to the surface. We use the symbol $F_{\|}$ for such forces. The magnitude per surface area A where shearing force is applied is the measure of shear stress
+
+$$
+\langle \tau \rangle = \text { shear stress }=\frac{F_{\|}}{A}
+$$
+
+so,
+
+$$
+F_{\|} = \langle \tau \rangle A = \langle \tau \rangle 2 \pi rl
+$$
+
+The air-gap also has a physical length `l`. Total developed torque $T$ is force over the surface area times radius `r`
+$$
+T = F_{\|} r = \langle \tau \rangle 2 \pi r^2 l
+$$
+
+</details>
+
+## Summary
+
+| Name                               | Rotational                   | Linear          | Relationship         |
+| ---------------------------------- | ---------------------------- | --------------- | -------------------- |
+| Position                           | $\theta$                     | x               | $\theta = x/r$       |
+| Accelation                         | $\alpha$                     | $a_t$           | $\alpha = {a_t}/{r}$ |
+| Velocity                           | $\omega$                     | $V_t$           | $\omega = V_t / r$   |
+| Moment of inertia / mass           | $I=\sum_{i} m_{i} r_{i}^{2}$ | m               |                      |
+| Kinetic energy                     | $K=1/2(I\omega^2)$           | $K=1/2(mV^2)$   |                      |
+| Newton's second law (torque/Force) | $T = I \alpha$               | $F = ma$        |                      |
+| Power                              | $P = T \omega$               | $P=W/t=Fs/t=Fv$ |                      |
+
+
+
 # [DC machine directory](DC-machine/)
 - Model of DC machine
 - Speed control of DC machine
@@ -146,6 +183,7 @@ where
 - Model of induction machine in Stator reference frame
 - Model of induction machine in Rotor flux oriented reference fram (for Field-Oriented Control)
 
-# References
-1. Moebs, W., Ling, S. J. & Sanny, J. Sep 19, 2016. University Physics Volume 1 [Online]. Houston, Texas: OpenStax. Available: https://openstax.org/books/university-physics-volume-1/pages/10-6-torque [Accessed January 28, 2022].
-2. Franz Hover, David Gossard, and George Barbastathis. *2.004 Systems, Modeling, and Control II.* Fall 2007. Massachusetts Institute of Technology: MIT OpenCourseWare, [https://ocw.mit.edu](https://ocw.mit.edu/courses/mechanical-engineering/2-004-systems-modeling-and-control-ii-fall-2007). License: [Creative Commons BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+**References**
+
+[^ref1]: Moebs, W., Ling, S. J. & Sanny, J. Sep 19, 2016. University Physics Volume 1 [Online]. Houston, Texas: OpenStax. Available: https://assets.openstax.org/oscms-prodcms/media/documents/UniversityPhysicsVol1-WEB.pdf [Accessed January 28, 2022].
+[^ref2]: Franz Hover, David Gossard, and George Barbastathis. *2.004 Systems, Modeling, and Control II.* Fall 2007. Massachusetts Institute of Technology: MIT OpenCourseWare, [https://ocw.mit.edu](https://ocw.mit.edu/courses/mechanical-engineering/2-004-systems-modeling-and-control-ii-fall-2007). License: [Creative Commons BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/).
