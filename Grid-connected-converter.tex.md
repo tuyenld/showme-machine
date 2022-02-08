@@ -1,6 +1,14 @@
-## Sinusoidal time functions and complex number
+Table of contents
+- [1. Sinusoidal time functions and complex number](#1-sinusoidal-time-functions-and-complex-number)
+  - [1.1. Complex number recap [^ref1]](#11-complex-number-recap-ref1)
+  - [1.2. Sinusoidal Time Functions](#12-sinusoidal-time-functions)
+  - [1.3. Summary](#13-summary)
+- [2. Impedance](#2-impedance)
+  - [Example](#example)
 
-### Complex number recap [^ref1]
+## 1. Sinusoidal time functions and complex number
+
+### 1.1. Complex number recap [^ref1]
 
 ![represenation of the complex number](images/representation-of-the-complex-number.png)
 
@@ -42,7 +50,7 @@ z^{*}=x-j y
 $$
 
 
-## Sinusoidal Time Functions
+### 1.2. Sinusoidal Time Functions
 
 A sinusoidal function of time might be written in three ways
 
@@ -109,13 +117,69 @@ $$
 B = 2x \qquad C = -2y \qquad \underline{X} = \frac{B}{2} - j \frac{C}{2}
 $$
 
-Summary
+### 1.3. Summary 
 
-| sin/cos form                               | complex number form                                                   | X                                                |
-| ------------------------------------------ | --------------------------------------------------------------------- | ------------------------------------------------ |
-| $f(t)=A \cos (\omega t+\phi)$              | $f(t)=\underline{X} e^{j \omega t}+\underline{X}^{*} e^{-j \omega t}$ | $\|\underline{X}\|=\frac{A}{2} \quad \psi =\phi$ |
-| $f(t)=B \cos (\omega t)+C \sin (\omega t)$ | $f(t)=Re(2\underline{X} e^{j \omega t})$                               | $\underline{X} = \frac{B}{2} - j \frac{C}{2}$    |
+While, expression `(3) and (4)` are equivalent since $(\underline{X} e^{j \omega t})^{*} = \underline{X}^{*} e^{-j \omega t}$, it is advantageous to use one or the other of
+them, according to circumstances.  
+It's easy to notice that $\underline{X}$ is time-independent. This conclusion is used when forming the relationship between voltage and current of inductor and capacitor elements.
 
+| Sinusoidal form                            | Complex number form                                                                 | $\underline{X}$                       |
+| ------------------------------------------ | ----------------------------------------------------------------------------------- | ------------------------------------- |
+| $f(t)=A \cos (\omega t+\phi)$              | $f(t)=\underline{X} e^{j \omega t}+\underline{X}^{*} e^{-j \omega t} \quad (3)$     | $\underline{X}={A}/{2} \angle \phi$   |
+| $f(t)=B \cos (\omega t)+C \sin (\omega t)$ | $f(t)=Re(2\underline{X} e^{j \omega t}) = Re(A e^{j \phi} e^{j \omega t})\quad (4)$ | $\underline{X} = {B}/{2} - j {C}/{2}$ |
 
+**Strategy**
+1. Transform the input `In` into complex polar form $In \angle \phi$
+2. Calculate impedance complex number $Z$
+3. Transform output `Out` into polar form $O \angle \alpha$
+4. Using expression `(4)` to find out $Out(t)$
+
+## 2. Impedance
+Consider two elements, inductances and capacitances.
+
+| Inducatance    (L)                                                                                                           | Capacitance (C)                                                                                                                   |
+| ---------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| ![inductor](images/Leading_lagging.jpg)                                                                                      | ![capacitor](images/Leading_lagging.jpg)                                                                                          |
+| Current is `lagging` voltage. (`L` means _Lower_ :arrow_lower_right:)                                                        | Current is `leading` voltage                                                                                                      |
+| $v_L = L {di}/{dt}$                                                                                                          | $i = C \; {dV_C}/{dt}$                                                                                                            |
+| $v = \underline{V}e^{j \omega t} + \underline{V}^{*} e^{-j \omega t}$                                                        | $i = \underline{I}e^{j \omega t} + \underline{I}^{*} e^{-j \omega t}$                                                             |
+| $\underline{V}=j \omega L \underline{I} = \underline{Z}_L \; \underline{I} \quad \text{where } \underline{Z}_L = j \omega L$ | $\underline{I}=j \omega C \underline{V} = \underline{V} / \underline{Z}_C \quad \text{where } \underline{Z}_C = 1 / (j \omega C)$ |
+
+The inverse of impedance is **admittance**
+
+$$
+\underline{Y} = 1/ \underline{Z}
+$$
+
+### Example
+Suppose we are to find the voltage $v(t)$ in the network, in which $i(t) = I cos(\omega t)$
+![complex number in circuit example](images/complex-circuit-ex.png)
+
+`Step 1.` Transform the input `In` into complex polar form $In \angle \phi$
+
+$$
+i(t) = Re(I e^{\omega t})
+$$
+
+`Step 2.` Calculate impedance complex number 
+$$
+Z \| = \frac{R j \omega L}{R + j \omega L} = \frac{R \omega L}{\sqrt{R^2 + (\omega L)^2}} \angle (arctan \frac{R}{\omega L})
+$$
+
+![phasor](images/complex-circuit-ex-phasor.jpg)
+
+`Step 3. ` We found the output voltage in the polar-exponential form
+
+$$
+V = Z \| I = \frac{IR \omega L}{\sqrt{R^2 + (\omega L)^2}} \angle (arctan \frac{R}{\omega L})
+$$
+
+`Step 4.` Using expression `(4)` to find out $v(t)$
+
+$$
+v(t) = \frac{IR \omega L}{\sqrt{R^2 + (\omega L)^2}} cos ( \omega t + arctan \frac{R}{\omega L})
+$$
+
+**References**
 
 [^ref1]: James Kirtley Jr.. *6.061 Introduction to Electric Power Systems.* Spring 2011. Massachusetts Institute of Technology: MIT OpenCourseWare, [https://ocw.mit.edu](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-061-introduction-to-electric-power-systems-spring-2011). License: [Creative Commons BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/).
