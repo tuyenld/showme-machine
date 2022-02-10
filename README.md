@@ -113,7 +113,7 @@ where
 <details>
 <summary> What is shear stress </summary>
 
-There are two ways to come up with the machine torque equation, one is through `Lorentz force` and another is `shear stress`. In [^ref2] course note, the author used shear stress to describe the torque. When deforming forces act tangentially to the object's surface, we call them 'shear' forces and the stress they cause is called **shear stress** [^ref1].  
+There are two ways to come up with the machine torque equation, one is through `Lorentz force` and another is `shear stress` [^ref3]. In [^ref2] course note, the author used shear stress to describe the torque. When deforming forces act tangentially to the object's surface, we call them 'shear' forces and the stress they cause is called **shear stress** [^ref1].  
 Shear stress is due to forces that act parallel to the surface. We use the symbol <img src="svgs/27295e315f1bda4258a9796d7a06c92a.svg?invert_in_darkmode" align=middle width=17.30599199999999pt height=22.465723500000017pt/> for such forces. The magnitude per surface area A where shearing force is applied is the measure of shear stress
 
 <p align="center"><img src="svgs/823bb7f1c5cad9ed30c978953c00a8a4.svg?invert_in_darkmode" align=middle width=179.3753478pt height=34.76437305pt/></p>
@@ -153,3 +153,4 @@ The air-gap also has a physical length `l`. Total developed torque <img src="svg
 
 [^ref1]: Moebs, W., Ling, S. J. & Sanny, J. Sep 19, 2016. University Physics Volume 1 [Online]. Houston, Texas: OpenStax. Available: https://assets.openstax.org/oscms-prodcms/media/documents/UniversityPhysicsVol1-WEB.pdf [Accessed January 28, 2022].
 [^ref2]: Franz Hover, David Gossard, and George Barbastathis. *2.004 Systems, Modeling, and Control II.* Fall 2007. Massachusetts Institute of Technology: MIT OpenCourseWare, [https://ocw.mit.edu](https://ocw.mit.edu/courses/mechanical-engineering/2-004-systems-modeling-and-control-ii-fall-2007). License: [Creative Commons BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+[^ref3]: [Shear Stress versus Lorentz Force](https://www.anttilehikoinen.fi/research-work/shear-stress-versus-lorentz-force/)
