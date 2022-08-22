@@ -93,6 +93,20 @@ Let take a look at [DC machine speed and current controller](DC_Motor_speed_curr
 
 https://ctms.engin.umich.edu/CTMS/index.php?example=MotorSpeed&section=SystemModeling
 
+**Links**
+- https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-241j-dynamic-systems-and-control-spring-2011/lecture-notes/MIT6_241JS11_lec07.pdf
+- https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-685-electric-machines-fall-2013/course-notes/MIT6_685F13_chapter10.pdf
+- https://ocw.mit.edu/search/ocwsearch.htm?q=dc%20machine%20control
+- https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-007-electromagnetic-energy-from-motors-to-lasers-spring-2011/lab-videos/lab-1-dc-motors/
+- https://ocw.mit.edu/courses/mechanical-engineering/2-004-systems-modeling-and-control-ii-fall-2007/lecture-notes/lecture05.pdf
+- https://ocw.tudelft.nl/course-lectures/6-dc-machine-drivers-and-induction-machines/?course_id=6469
+- https://library.baycollege.edu/c.php?g=426415&p=5207147
+- https://ocw.tudelft.nl/wp-content/uploads/ET4117_Electrical_Machines_and_Drives_lecture7.pdf
+- https://ocw.tudelft.nl/wp-content/uploads/ET4117_Electrical_Machines_and_Drives_lecture6.pdf
+- https://ocw.tudelft.nl/course-lectures/4-dc-machines-and-drives/
+- https://ocw.tudelft.nl/wp-content/uploads/ET4117_Electrical_Machines_and_Drives_lecture4.pdf
+- https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-685-electric-machines-fall-2013/course-notes/
+
 **References**
 
 [^ref1]: Franz Hover, David Gossard, and George Barbastathis. *2.004 Systems, Modeling, and Control II.* Fall 2007. Massachusetts Institute of Technology: MIT OpenCourseWare, [https://ocw.mit.edu](https://ocw.mit.edu/courses/mechanical-engineering/2-004-systems-modeling-and-control-ii-fall-2007). License: [Creative Commons BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/).  
