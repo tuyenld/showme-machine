@@ -95,3 +95,12 @@ where
 **References**
 
 [^ref1]: James Kirtley Jr.. *6.685 Electric Machines.* Fall 2013. Massachusetts Institute of Technology: MIT OpenCourseWare, [https://ocw.mit.edu](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-685-electric-machines-fall-2013). License: [Creative Commons BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+**Pending**
+- https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-241j-dynamic-systems-and-control-spring-2011/lecture-notes/MIT6_241JS11_lec07.pdf
+- https://ocw.tudelft.nl/courses/electrical-machines-and-drives/?view=lectures&paging=2
+- https://ocw.tudelft.nl/wp-content/uploads/ET4117_Electrical_Machines_and_Drives_lecture5.pdf
+- https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-685-electric-machines-fall-2013/course-notes/
+- https://www.tntech.edu/engineering/pdf/cesr/ojo/asuri/Chapter3.pdf
+- https://oasis.geneseo.edu/basic_search.php?search_query=dc+machine+
+- UniversityPhysicsVol1-WEB.pdf
