@@ -7,7 +7,11 @@ Table of contents
   - [Basic rules](#basic-rules)
   - [Summary](#summary)
 - [DC machine directory](#dc-machine-directory)
+- [AC machine definition](#ac-machine-definition)
 - [Induction machine directory](#induction-machine-directory)
+  - [Wound rotor](#wound-rotor)
+  - [Cage rotor](#cage-rotor)
+  - [Synchronous machine](#synchronous-machine)
 
 
 Click :arrow_forward: icon to expand the content inside.
@@ -145,9 +149,55 @@ The air-gap also has a physical length `l`. Total developed torque <img src="svg
 - Model of DC machine
 - Speed control of DC machine
 
+# AC machine definition
+
+There are two major classes of ac machines: synchronous machines and induction machines.
+1.  **Synchronous** machines are motors and generators whose magnetic field current is supplied by a separate DC power source (Chapter 4,5)
+2.  **Induction** machines are motors and generators whose field current is supplied by magnetic induction (transformer action) into their field windings. (Chapter 6)
+    1.  The rotor voltage (which produces the rotor current and the rotor magnetic field) is induced in the rotor windings rather than being physically connected by wires.
+    2.  The distinguishing feature of an induction motor is that no DC field current is required to run the machine.
+    3.  Although it is possible to use an induction machine as either a motor or a generator, it has many disadvantages as a generator and so is rarely used in that manner. For this reason, induction machines are usually referred to as induction motors.
+The field circuits of most synchronous and induction machines are located on their rotors.
+
+Induction motor stator looks (and is) the same as a synchronous machine stator.
+
 # [Induction machine directory](Induction-machine/)
 - Model of induction machine in Stator reference frame
 - Model of induction machine in Rotor flux oriented reference fram (for Field-Oriented Control)
+  
+[How does an Induction Motor work ?](https://youtu.be/AQqyGNOP_3o)
+
+![image1](images/image1-10.png)
+There are two different types of induction motor rotors which can be placed inside the stator. One is called a **cage rotor**, while the other is called a **wound rotor**.
+[Understanding electric motor Windings!](https://youtu.be/YYQayMrK4Fo)
+
+![image2](images/image2-9.png)
+
+
+![image3](images/image3-8.png)
+Page (136 / 812) ref#10
+
+## Wound rotor
+[Slip ring Induction Motor, How it works ?](https://youtu.be/JPn5Ou-N0b0)
+
+![image4](images/image4-6.png)
+- A wound rotor has a complete set of three-phase windings that are similar to the windings on the stator
+- The three phases of the rotor windings are usually Y-connected, and the ends of the three rotor wires are tied to slip rings on the rotor's shaft. The rotor windings are shorted through brushes riding on the slip rings
+- Wound-rotor induction motors are more expensive than cage induction motors, and they require much more maintenance because of the wear associated with their brushes and slip rings. As a result, wound-rotor induction motors are rarely used.
+
+## Cage rotor
+
+![image5](images/image5-5.png)
+
+[SLIP RING MOTOR - how it works, explained the EASY way! (1920s Lift Motor Room)](https://youtu.be/W1mee2uNFiE)
+
+![image6](images/image6-2.png)
+
+## Synchronous machine
+[Working of Synchronous Motor](https://youtu.be/Vk2jDXxZIhs)
+
+![image7](images/image7-2.png)
+
 
 **References**
 
