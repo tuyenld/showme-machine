@@ -204,3 +204,8 @@ Page (136 / 812) ref#10
 [^ref1]: Moebs, W., Ling, S. J. & Sanny, J. Sep 19, 2016. University Physics Volume 1 [Online]. Houston, Texas: OpenStax. Available: https://assets.openstax.org/oscms-prodcms/media/documents/UniversityPhysicsVol1-WEB.pdf [Accessed January 28, 2022].
 [^ref2]: Franz Hover, David Gossard, and George Barbastathis. *2.004 Systems, Modeling, and Control II.* Fall 2007. Massachusetts Institute of Technology: MIT OpenCourseWare, [https://ocw.mit.edu](https://ocw.mit.edu/courses/mechanical-engineering/2-004-systems-modeling-and-control-ii-fall-2007). License: [Creative Commons BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 [^ref3]: [Shear Stress versus Lorentz Force](https://www.anttilehikoinen.fi/research-work/shear-stress-versus-lorentz-force/)
+
+## Pending
+- [Modelling Induction Motors](https://www.mogi.bme.hu/TAMOP/digitalis_szervo_hajtasok_angol/ch07.html)
+- [Rotor Field-Oriented Control (RFOC) of an induction machine](https://imperix.com/doc/implementation/rotor-field-oriented-control)
+- [V/f control of an induction machine](https://imperix.com/doc/implementation/vf-control-induction-machine)
